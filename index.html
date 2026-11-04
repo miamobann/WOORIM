@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WOORIM 위스키 티백</title>
+  <meta name="description" content="테이블 위의 참나무 숲, WOORIM 위스키 티백 상세 페이지. ※ AI로 생성된 가상의 제품이며 실존하지 않습니다.">
+  <meta name="theme-color" content="#141110">
+  <link rel="icon" href="assets/img/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+  <!-- AI 생성 · 가상 제품 고지 -->
+  <div class="ai-bar" role="note">
+    <strong>안내</strong> · WOORIM은 <strong>AI로 생성된 가상의 브랜드·제품</strong>으로 실존하지 않으며, 실제로 판매되지 않습니다. 페이지의 이미지와 영상도 AI로 제작되었습니다.
+  </div>
+
+  <header class="header" id="header">
+    <div class="wrap">
+      <a href="index.html" class="logo" aria-label="WOORIM 홈">
+        <img class="logo-light" src="assets/img/logo-white-mark.png" alt="" width="35" height="32">
+        <img class="logo-dark" src="assets/img/logo-mark.png" alt="" width="35" height="32">
+        WOORIM
+      </a>
+      <nav class="nav" id="nav" aria-label="주요 메뉴">
+        <a href="#film">홍보 영상</a>
+        <a href="#features">제품 특징</a>
+        <a href="#howto">사용 방법</a>
+        <a href="#scenes">상황별 사진</a>
+        <a href="recipes.html">추천 레시피</a>
+      </nav>
+      <a href="#buy" class="btn btn-amber btn-sm btn-buy">구매하기</a>
+      <button class="menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. 상단 메인 이미지 -->
+    <section class="hero" id="top">
+      <div class="hero-media">
+        <picture>
+          <source media="(max-width: 700px)" srcset="assets/img/hero-lineup-sm.webp">
+          <img src="assets/img/hero-lineup.webp" alt="검은 슬레이트 위에 놓인 WOORIM 위스키 티백 12종 상자와 피라미드 티백" fetchpriority="high">
+        </picture>
+      </div>
+      <div class="wrap hero-inner">
+        <p class="eyebrow reveal">The Whisky Tea Bag · Steep &amp; Aging</p>
+        <h1 class="reveal" data-delay="1">테이블 위의<br><em>참나무 숲</em></h1>
+        <p class="hero-sub reveal" data-delay="2">누구나 쉽게 직접 커스텀하는 위스키, WOORIM</p>
+        <div class="hero-cta reveal" data-delay="3">
+          <a href="#buy" class="btn btn-amber">구매하기</a>
+          <a href="#film" class="btn btn-ghost">영상 보기</a>
+        </div>
+        <div class="hero-foot">
+          <span class="ai-chip">AI로 생성된 가상의 제품 · 실존하지 않음</span>
+          <span class="scroll-cue">SCROLL <i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 인트로 -->
+    <section class="section statement">
+      <div class="wrap">
+        <p class="eyebrow reveal">WOORIM · 우림</p>
+        <h2 class="reveal" data-delay="1">
+          <s>비싸고, 독하고, 어려운</s> 위스키는 그만.<br>
+          소주에 티백 한 장이면 충분합니다.
+        </h2>
+        <p class="lead reveal" data-delay="2">'우리다'와 숲 림(林)을 합친 이름처럼, 익숙한 소주·보드카·탄산수에 오크 티백을 우려 나만의 위스키 풍미를 만드세요.</p>
+        <div class="stats">
+          <div class="stat reveal"><b data-count="12">12</b><span>풍미별 캐스크 티백</span></div>
+          <div class="stat reveal" data-delay="1"><b data-count="3">3</b><span>최대 블렌딩 장수</span></div>
+          <div class="stat reveal" data-delay="2"><b data-count="4">4</b><span>단계면 완성</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 홍보 영상 -->
+    <section class="section dark" id="film">
+      <div class="wrap">
+        <div class="sec-head center">
+          <p class="eyebrow reveal">Brand Film</p>
+          <h2 class="title reveal" data-delay="1">하나의 티백으로 완성되는<br>새로운 한 잔</h2>
+        </div>
+        <div class="video-box reveal" id="videoBox">
+          <video id="promo" preload="metadata" playsinline controls poster="assets/video/promo-poster.jpg">
+            <source src="assets/video/woorim-promo.mp4" type="video/mp4">
+            브라우저가 영상 재생을 지원하지 않습니다.
+          </video>
+          <button class="video-play" id="videoPlay" aria-label="홍보 영상 재생">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></span>
+          </button>
+        </div>
+        <div class="video-meta">
+          <span>WOORIM Brand Film · 0:38</span>
+          <span>※ 본 영상은 AI로 생성되었으며, 영상 속 제품은 실존하지 않습니다.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 제품 특징 -->
+    <section class="section" id="features">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow reveal">Features</p>
+          <h2 class="title reveal" data-delay="1">고르고, 우리고,<br>건져내면 끝.</h2>
+          <p class="lead reveal" data-delay="2">WOORIM의 두 가지 기능, 블렌딩과 숙성. 위스키 한 병 대신 티백 몇 장으로 매일 다른 한 잔을 즐기세요.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature reveal">
+            <span class="feature-no">01</span>
+            <h3>블렌딩<small>BLENDING</small></h3>
+            <p>12종의 풍미별 티백 중 1~3장을 골라 섞으면 나만의 블렌디드 완성. 한 장은 '싱글 캐스크', 세 장을 섞으면 '트리플 캐스크 피니시'.</p>
+            <div class="feature-visual" aria-hidden="true">
+              <i class="bag" style="--c:#E6CF97"></i>
+              <i class="bag" style="--c:#3F3D3B"></i>
+              <i class="bag" style="--c:#6A1E2C"></i>
+              <span class="eq">=</span>
+              <span class="result">Triple Cask<br>Finish</span>
+            </div>
+          </article>
+          <article class="feature reveal" data-delay="1">
+            <span class="feature-no">02</span>
+            <h3>숙성<small>TIME-WARP AGING</small></h3>
+            <p>티백을 우리는 시간이 곧 숙성. 원하는 깊이가 되었을 때 티백을 건져내면, 가볍게도 묵직하게도 내 취향대로 완성됩니다.</p>
+            <div class="age-bar" aria-hidden="true">
+              <i style="background:var(--age-nas)"></i><i style="background:var(--age-12)"></i><i style="background:var(--age-18)"></i><i style="background:var(--age-30)"></i>
+            </div>
+            <div class="age-labels" aria-hidden="true"><span>가볍고 산뜻하게</span><span>깊고 묵직하게</span></div>
+          </article>
+        </div>
+        <p class="ai-note">주의 · 티백이 술을 조금 흡수합니다. 이를 우리는 '천사의 몫(Angel's Share)'이라 부릅니다.</p>
+
+        <!-- 라인업 -->
+        <div class="lineup" id="lineup">
+          <div class="sec-head">
+            <p class="eyebrow reveal">Line-up</p>
+            <h2 class="title reveal" data-delay="1">12개의 캐스크,<br>12가지 풍미</h2>
+            <p class="lead reveal" data-delay="2">시그니처 03 · 07 · 12를 포함한 세 개의 파트. 오늘의 기분에 맞는 캐스크를 골라보세요.</p>
+          </div>
+          <div class="tabs" role="tablist" id="lineupTabs"></div>
+          <div class="lineup-img reveal">
+            <img id="lineupImg" src="assets/img/lineup-part1.webp" alt="" loading="lazy">
+          </div>
+          <p class="ai-note">※ 제품 이해를 돕기 위해 AI로 생성된 이미지입니다. 이미지 속 상자 글씨는 실제 표기와 다를 수 있으며, 제품은 실존하지 않습니다.</p>
+          <div class="cards" id="lineupCards" role="tabpanel"></div>
+        </div>
+
+        <!-- 블렌딩 체험 -->
+        <div class="lab" id="lab">
+          <div>
+            <p class="eyebrow reveal">Blending Lab</p>
+            <h2 class="title reveal" data-delay="1">나만의 블렌디드<br>만들어보기</h2>
+            <p class="lead reveal" data-delay="2">12종 중 최대 3장을 골라보세요. 선택한 태그 색이 잔 속에서 섞입니다.</p>
+            <div class="chips" id="labChips"></div>
+          </div>
+          <aside class="lab-result" aria-live="polite">
+            <div data-glass="lab"></div>
+            <p class="lab-name" id="labName">티백을 골라주세요</p>
+            <p class="lab-sub" id="labSub">한 장은 싱글 캐스크, 세 장은 트리플 캐스크 피니시.</p>
+            <button class="lab-reset" id="labReset" type="button">다시 고르기</button>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 사용 방법 -->
+    <section class="section" id="howto" style="background:var(--ivory-2)">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow reveal">How to Use</p>
+          <h2 class="title reveal" data-delay="1">냉장고에 있는 것만으로,<br>네 단계면 충분합니다</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <span class="step-no">STEP 01</span>
+            <svg class="step-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M26 4h8v8l4 6v10H22V18l4-6z"/><path d="M38 24l10 10"/><path d="M48 36c0 3-2 5-2 5"/><path d="M18 40h28l-3 20H21z"/><path d="M20 48h24"/></svg>
+            <h3><small>Pour</small>베이스 붓기</h3>
+            <p>소주, 보드카, 또는 무알코올이라면 탄산수나 보리차.</p>
+          </div>
+          <div class="step reveal" data-delay="1">
+            <span class="step-no">STEP 02</span>
+            <svg class="step-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M32 10L52 46H12z"/><path d="M32 10V4"/><path d="M32 4c8 0 14 8 14 20v18"/><rect x="40" y="42" width="12" height="14" rx="1"/><path d="M22 36l4 2 4-3 4 3 4-2"/></svg>
+            <h3><small>Pick</small>풍미 고르기</h3>
+            <p>12종 중 1~3장을 골라 넣습니다.</p>
+          </div>
+          <div class="step reveal" data-delay="2">
+            <span class="step-no">STEP 03</span>
+            <svg class="step-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="32" cy="35" r="22"/><path d="M32 21v14l9 6"/><path d="M26 6h12M32 6v7"/></svg>
+            <h3><small>Steep</small>시간 정하기</h3>
+            <p>태그의 시간표를 보고 원하는 연수에서 티백을 건져냅니다.</p>
+          </div>
+          <div class="step reveal" data-delay="3">
+            <span class="step-no">STEP 04</span>
+            <svg class="step-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M18 8h28l-3 50H21z"/><path d="M19.5 26h25"/><rect x="25" y="32" width="10" height="10" rx="2"/><circle cx="38" cy="46" r="1.5"/><circle cx="30" cy="50" r="1.2"/><circle cx="36" cy="38" r="1"/></svg>
+            <h3><small>Finish</small>마무리</h3>
+            <p>얼음에 붓거나 탄산수를 부어 하이볼로.</p>
+          </div>
+        </div>
+        <div class="howto-cta reveal">
+          <div>
+            <h3>무엇을 섞을지 고민된다면?</h3>
+            <p>바로 따라 하는 추천 레시피 3가지와 숙성 타이머를 준비했어요.</p>
+          </div>
+          <a href="recipes.html#recipes" class="btn btn-amber">추천 레시피 보기 →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 상황별 사진 -->
+    <section class="section dark" id="scenes">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow reveal">Moments</p>
+          <h2 class="title reveal" data-delay="1">어떤 순간에도,<br>오늘은 좀 다른 한 잔</h2>
+          <p class="lead reveal" data-delay="2">혼자만의 밤부터 소중한 사람과의 저녁까지. 상황에 맞는 캐스크를 골라보세요.</p>
+        </div>
+        <div class="scenes" id="sceneList">
+          <button class="scene reveal" data-full="assets/img/scene-rock.webp">
+            <figure style="margin:0">
+              <img src="assets/img/scene-rock-sm.webp" srcset="assets/img/scene-rock-sm.webp 960w, assets/img/scene-rock.webp 1920w" sizes="(max-width: 860px) 100vw, 66vw" alt="어두운 슬레이트 위 구형 얼음이 담긴 온더락 잔에 WOORIM 티백이 우러나는 모습" loading="lazy">
+              <figcaption>
+                <span class="when">Alone at Night</span>
+                <h3>혼자만의 밤, 온더락 한 잔</h3>
+                <p>큰 얼음 위로 스모키함이 천천히 퍼집니다.</p>
+                <span class="pair" data-pair="07,03,12"></span>
+              </figcaption>
+            </figure>
+          </button>
+          <button class="scene reveal" data-delay="1" data-full="assets/img/lifestyle-man.webp">
+            <figure style="margin:0">
+              <img src="assets/img/lifestyle-man-sm.webp" srcset="assets/img/lifestyle-man-sm.webp 960w, assets/img/lifestyle-man.webp 1920w" sizes="(max-width: 860px) 100vw, 33vw" alt="어두운 배경에서 티백이 담긴 앰버색 위스키를 마시는 남성" loading="lazy">
+              <figcaption>
+                <span class="when">For Whisky Lovers</span>
+                <h3>애호가의 데일리 드램</h3>
+                <p>좋은 위스키를 매일 마시긴 부담될 때.</p>
+                <span class="pair" data-pair="07"></span>
+              </figcaption>
+            </figure>
+          </button>
+          <button class="scene reveal" data-full="assets/img/scene-highball.webp">
+            <figure style="margin:0">
+              <img src="assets/img/scene-highball-sm.webp" alt="월넛 바 테이블 위 얼음과 탄산이 가득한 하이볼 잔 속 WOORIM 티백" loading="lazy">
+              <figcaption>
+                <span class="when">After Work</span>
+                <h3>퇴근 후 홈바 하이볼</h3>
+                <p>소주에 탄산수만 더하면 완성.</p>
+                <span class="pair" data-pair="12"></span>
+              </figcaption>
+            </figure>
+          </button>
+          <button class="scene reveal" data-delay="1" data-full="assets/img/lifestyle-party.webp">
+            <figure style="margin:0">
+              <img src="assets/img/lifestyle-party-sm.webp" alt="따뜻한 조명 아래 붉은 하이볼로 건배하며 웃는 두 사람과 Ruby Port 상자" loading="lazy">
+              <figcaption>
+                <span class="when">With Someone</span>
+                <h3>소중한 사람과 함께할 때</h3>
+                <p>술의 색까지 붉게 물드는 파티 한 잔.</p>
+                <span class="pair" data-pair="10"></span>
+              </figcaption>
+            </figure>
+          </button>
+          <button class="scene reveal" data-delay="2" data-full="assets/img/scene-morning.webp">
+            <figure style="margin:0">
+              <img src="assets/img/scene-morning-sm.webp" alt="햇살이 드는 아이보리 리넨 위 쿠프 잔과 WOORIM 티백" loading="lazy">
+              <figcaption>
+                <span class="when">Lazy Weekend</span>
+                <h3>주말 오후의 가벼운 한 잔</h3>
+                <p>짧게 우려 산뜻하고 가볍게.</p>
+                <span class="pair" data-pair="03"></span>
+              </figcaption>
+            </figure>
+          </button>
+        </div>
+        <p class="ai-note">※ 상기 이미지는 AI로 생성된 연출 이미지이며, 등장 인물과 제품은 실존하지 않습니다. 클릭하면 크게 볼 수 있어요.</p>
+
+        <div class="center" style="margin-top:clamp(72px,9vw,110px)">
+          <p class="eyebrow reveal">Share Your Cask</p>
+          <h2 class="title reveal" data-delay="1" style="font-size:clamp(24px,3vw,34px)">나만의 한 잔을 공유해 주세요</h2>
+          <div class="tags" id="hashtags"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 구매 -->
+    <section class="section" id="buy">
+      <div class="wrap buy">
+        <div class="reveal">
+          <div class="buy-visual">
+            <img id="buyImg" src="assets/img/hero-lineup-sm.webp" alt="선택한 WOORIM 상자 구성 이미지" loading="lazy">
+            <span class="ai-chip">AI 생성 이미지 · 실존하지 않는 제품</span>
+          </div>
+          <table class="spec">
+            <caption class="sr-only">제품 정보</caption>
+            <tr><th scope="row">제품 유형</th><td>위스키 풍미 오크 티백 (주류 아님)</td></tr>
+            <tr><th scope="row">권장 베이스</th><td>소주 · 보드카 · 탄산수 · 보리차</td></tr>
+            <tr><th scope="row">구성</th><td>1팩 · 티백 5개입 (단일 풍미)</td></tr>
+            <tr><th scope="row">원재료</th><td>추후 확정</td></tr>
+            <tr><th scope="row">판매 상태</th><td><b>판매하지 않음</b> — AI로 생성된 가상의 제품입니다.</td></tr>
+          </table>
+        </div>
+
+        <div class="reveal" data-delay="1">
+          <p class="eyebrow">Purchase</p>
+          <h2>WOORIM 위스키 티백</h2>
+          <div class="price"><b id="buyPrice">30,000원</b><span>· 1팩 (티백 5개입)</span></div>
+
+          <p class="opt-label" id="optLabel">풍미 선택 <span id="optSel"></span></p>
+          <div class="options" id="buyOptions" role="radiogroup" aria-labelledby="optLabel"></div>
+
+          <div class="qty-row">
+            <span>수량</span>
+            <div class="qty">
+              <button type="button" id="qtyMinus" aria-label="수량 줄이기">−</button>
+              <output id="qty" aria-live="polite">1</output>
+              <button type="button" id="qtyPlus" aria-label="수량 늘리기">+</button>
+            </div>
+          </div>
+          <div class="total-row">
+            <span>총 상품금액 <small id="totalNote">(1팩 · 티백 5개)</small></span>
+            <b id="totalPrice" aria-live="polite">30,000원</b>
+          </div>
+
+          <div class="buy-actions">
+            <button class="btn btn-ghost" type="button" data-buy="cart">장바구니</button>
+            <button class="btn btn-amber" type="button" data-buy="now">구매하기</button>
+          </div>
+          <p class="buy-warning">⚠ WOORIM은 <b>AI로 생성된 가상의 제품</b>으로 실존하지 않습니다. 구매 버튼은 디자인 시연용이며 실제 결제·배송은 이루어지지 않습니다.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="logo"><img src="assets/img/logo-white-mark.png" alt="" width="35" height="32"> WOORIM</a>
+          <p class="slogan">테이블 위의 참나무 숲</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>PAGE</h4>
+            <a href="#features">제품 특징</a>
+            <a href="recipes.html">사용 방법 · 레시피</a>
+            <a href="#buy">구매하기</a>
+          </div>
+          <div>
+            <h4>CONTACT</h4>
+            <a href="#" aria-disabled="true">문의하기 (준비 중)</a>
+            <a href="#" aria-disabled="true">Instagram (준비 중)</a>
+          </div>
+        </div>
+      </div>
+      <div class="notice-box">
+        <p class="ai">본 페이지의 브랜드 WOORIM과 모든 제품, 이미지, 영상은 AI로 생성된 가상의 콘텐츠이며 실존하지 않습니다. 실제 판매·광고 목적이 아닌 기획·디자인 시연용입니다.</p>
+        <p>경고: 지나친 음주는 뇌졸중, 기억력 손상이나 치매를 유발합니다. 임신 중 음주는 기형아 출생 위험을 높입니다. 19세 미만 청소년에게 판매 금지.</p>
+      </div>
+      <p class="copy">© 2026 WOORIM (Fictional brand · AI-generated concept)</p>
+    </div>
+  </footer>
+
+  <!-- 모바일 하단 구매바 -->
+  <div class="mobile-buy" id="mobileBuy">
+    <div><b>30,000원</b>1팩 티백 5개입 · AI로 생성된 가상 제품</div>
+    <a href="#buy" class="btn btn-amber btn-sm">구매하기</a>
+  </div>
+
+  <!-- 구매 안내 모달 -->
+  <div class="modal" id="buyModal" role="dialog" aria-modal="true" aria-labelledby="buyModalTitle" hidden>
+    <div class="modal-card">
+      <span class="ai-chip">가상 제품 안내</span>
+      <h3 id="buyModalTitle">구매할 수 없는 제품입니다</h3>
+      <div class="summary" id="buySummary"></div>
+      <p>WOORIM은 <b>AI로 생성된 가상의 제품</b>으로 실존하지 않으며, 실제 결제·배송이 이루어지지 않습니다. 관심 가져주셔서 감사합니다!</p>
+      <button class="btn btn-amber" type="button" data-close>확인</button>
+    </div>
+  </div>
+
+  <!-- 라이트박스 -->
+  <div class="modal lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="이미지 크게 보기" hidden>
+    <button class="lightbox-close" type="button" data-close aria-label="닫기">×</button>
+    <figure>
+      <img id="lightboxImg" alt="">
+      <figcaption>※ AI로 생성된 이미지 · 실존하지 않는 제품</figcaption>
+    </figure>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# 사이트 파일만 올림 — 원본 이미지·영상·기획 자료와 관련 없는 파일은 제외
+/*
+!/index.html
+!/recipes.html
+!/netlify.toml
+!/.gitignore
+!/css/
+!/js/
+!/assets/
